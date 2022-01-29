@@ -1,0 +1,43 @@
+/*elegir colores primarios, secundarios y terciarios con base al color verde*/
+/*primario: verde oscuro
+secundario: amarillo y negro
+terciario: negro*/
+
+.contac_number {
+    font-size: 18px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.icon_tel {
+    font-size: 20px;
+    color: whitesmoke;
+    margin: 20px 5px 5px 5px;
+}
+.icon_facebook {
+    font-size: 20px;
+    color: whitesmoke;
+    margin: 20px 5px 5px 5px;
+}
+
+.icon_instagram {
+    font-size: 20px;
+    color: whitesmoke;
+    margin: 20px 5px 5px 5px;
+}
+
+.icon_youtube {
+    font-size: 20px;
+    color: whitesmoke;
+    margin: 20px 5px 5px 5px;
+}
+
+.icon_whatsapp {
+    font-size: 20px;
+    color: whitesmoke;
+    margin: 20px 5px 5px 5px;
+}
+
+.contact_info {
+    background: darkgreen;
+}
