@@ -3,7 +3,7 @@
 secundario: amarillo y negro
 terciario: negro*/
 
-.contac_number {
+.contac_number{
     font-size: 18px;
     color: whitesmoke;
     text-decoration: none;
@@ -40,4 +40,93 @@ terciario: negro*/
 
 .contact_info {
     background: darkgreen;
+}
+
+.img-logo {
+    margin-top: 20px;
+}
+
+.titulo {
+    color: darkgreen;
+    font-size: 80px;
+    font-family:'Segoe UI';
+
+}
+ul.menu {
+    background-color: white;
+    text-decoration: none;
+    list-style: none;
+    float: right;
+    margin: 20px 55px;
+    border-radius: 8px;
+}
+
+ul.menu li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+ul.menu li a {
+    font-size: 20px;
+    color:darkgreen;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: left;
+        
+}
+
+.menu li a:hover{
+    color: orange;
+    transition: all 0.5s;
+}
+
+
+.submenu {
+    float: right;
+    position: absolute;
+    background: white;
+    display: none;
+    border-radius: 8px;
+}
+
+.submenu li a{
+    display: block;
+    padding: 8px;
+    color: white;
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+
+.button{
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: orange;
+    text-align: center;
+    position: relative;
+    color: white;
+    margin: auto;
+}
+
+.button:hover{
+    background-color: white;
+    color: darkgreen;
+    border: 1px solid orange;
+}
+
+.subtitulo1 {
+    color: darkgreen;
+    font-size:50px;
+    font-family:'Segoe UI';
+}
+
+.subtitulo2 {
+    color: darkgreen;
+    font-size:30px;
+    font-family:'Segoe UI';
 }
