@@ -130,3 +130,9 @@ ul.menu li a {
     font-size:30px;
     font-family:'Segoe UI';
 }
+
+.img-destacado {
+    margin-top: 15px;
+    height: 200px;
+    width: 200px;
+}
